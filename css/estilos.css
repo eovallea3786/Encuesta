@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+body{
+	background-color: #222;
+}
 
 div#general{
 	margin: auto;
-	margin-top: 20px;
 	width: 100%;
 	height: 800px;
 }
@@ -28,14 +31,17 @@ table#principal{
 	margin-bottom: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
-	-webkit-box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
--moz-box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
-box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
+	border-radius: 30px;
+	-webkit-box-shadow: inset 2px 2px 102px 1px rgba(0,0,0,0.94);
+-moz-box-shadow: inset 2px 2px 102px 1px rgba(0,0,0,0.94);
+box-shadow: inset 2px 2px 102px 1px rgba(0,0,0,0.94);
 }
 
 table#titulo{
 	width: 100%;
 	height: 50px;
+	margin-left: 15px;
+	margin-top: 15px;
 }
 
 tr#titulo{
@@ -51,4 +57,16 @@ td#titulo{
 td#imagen{
 	width: 5%;
 	height: 50px;
+}
+
+img#titulo{
+	width: 95%;
+	
+}
+
+p#titulo{
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 40px;
+	margin-left: 15px;
 }
