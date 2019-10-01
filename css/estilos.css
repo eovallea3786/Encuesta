@@ -1,25 +1,54 @@
+
+
 div#general{
 	margin: auto;
 	margin-top: 20px;
 	width: 100%;
 	height: 800px;
-	border: 1px solid black;
 }
 div#registro{
 	float: left;
 	width: 33%;
 	height: 100%;
-	border: 1px solid black;
 }
 div#login{
 	float: left;
 	width: 33%;
 	height: 100%;
-	border: 1px solid black;
 }
 div#datos{
 	float: left;
 	width: 33%;
 	height: 100%;
-	border: 1px solid black;
+}
+table#principal{
+	width: 90%;
+	height: 90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	-webkit-box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
+-moz-box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
+box-shadow: inset 2px 2px 77px 1px rgba(115,115,115,1);
+}
+
+table#titulo{
+	width: 100%;
+	height: 50px;
+}
+
+tr#titulo{
+	width: 100%;
+	height: 50px;
+}
+
+td#titulo{
+	width: 95%;
+	height: 50px;
+}
+
+td#imagen{
+	width: 5%;
+	height: 50px;
 }
