@@ -70,3 +70,9 @@ p#titulo{
 	font-size: 40px;
 	margin-left: 15px;
 }
+
+p#textomedio{
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 18px;
+}

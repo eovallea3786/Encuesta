@@ -25,95 +25,95 @@
 			<table>
 					<tr>
 						<td>	
-							<p>Tipo de Identificación:</p>
+							<p id="textomedio">Tipo de Identificación:</p>
 						</td>
 						<td>
-							<input type="text" name="Tipo de Identificación" value="Tipo de Identificación">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Número de Identificación:</p>
-						</td>
-						<td>
-							<input type="text" name="Número de Identificación" value="Número de Identificación">
+							<input type="text" name="Tipo de Identificación" placeholder="Tipo de Identificación">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Lugar de Nacimiento:</p>
+							<p id="textomedio">Número de Identificación:</p>
 						</td>
 						<td>
-							<input type="text" name="Lugar de Nacimiento" value="Lugar de Nacimiento">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Edad:</p>
-						</td>
-						<td>
-							<input type="text" name="Edad" value="Edad">
+							<input type="text" name="Número de Identificación" placeholder="Número de Identificación">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Sexo:</p>
+							<p id="textomedio">Lugar de Nacimiento:</p>
 						</td>
 						<td>
-							<input type="text" name="Sexo" value="Sexo">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Domicilio:</p>
-						</td>
-						<td>
-							<input type="text" name="Domicilio" value="Domicilio">
+							<input type="text" name="Lugar de Nacimiento" placeholder="Lugar de Nacimiento">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Barrio:</p>
+							<p id="textomedio">Edad:</p>
 						</td>
 						<td>
-							<input type="text" name="Barrio" value="Barrio">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Teléfono:</p>
-						</td>
-						<td>
-							<input type="text" name="Teléfono" value="Teléfono">
+							<input type="text" name="Edad" placeholder="Edad">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Celular:</p>
+							<p id="textomedio">Sexo:</p>
 						</td>
 						<td>
-							<input type="text" name="Celular" value="Celular">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>Correo electronico:</p>
-						</td>
-						<td>
-							<input type="text" name="Correo electronico" value="Correo electronico">
+							<input type="text" name="Sexo" placeholder="Sexo">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Nivel educativo:</p>
+							<p id="textomedio">Domicilio:</p>
 						</td>
 						<td>
-							<input type="text" name="Nivel educativo" value="Nivel educativo">
+							<input type="text" name="Domicilio" placeholder="Domicilio">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p>Foto:</p>
+							<p id="textomedio">Barrio:</p>
+						</td>
+						<td>
+							<input type="text" name="Barrio" placeholder="Barrio">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="textomedio">Teléfono:</p>
+						</td>
+						<td>
+							<input type="text" name="Teléfono" placeholder="Teléfono">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="textomedio">Celular:</p>
+						</td>
+						<td>
+							<input type="text" name="Celular" placeholder="Celular">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="textomedio">Correo electronico:</p>
+						</td>
+						<td>
+							<input type="text" name="Correo electronico" placeholder="Correo electronico">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="textomedio">Nivel educativo:</p>
+						</td>
+						<td>
+							<input type="text" name="Nivel educativo" placeholder="Nivel educativo">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p id="textomedio">Foto:</p>
 						</td>
 						<td>
 							<input type="file" name="Foto" value="Foto">
