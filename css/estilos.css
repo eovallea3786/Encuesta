@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 
 body{
 	background-color: #222;
@@ -59,6 +60,16 @@ td#imagen{
 	height: 50px;
 }
 
+tr#td1{
+	width: 99%;
+}
+
+td#tr1{
+	width: 99%;
+	padding: 15px;
+	text-align: center;
+}
+
 img#titulo{
 	width: 95%;
 	
@@ -75,4 +86,35 @@ p#textomedio{
 	font-family: 'Lora', serif;
 	color: white;
 	font-size: 18px;
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px -3px 6px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:25px;
+	padding:13px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 11px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p.contenidoG{
+	font-family: 'Patua One', cursive;
+	font-size: 35px;
+
 }
