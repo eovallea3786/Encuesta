@@ -7,6 +7,11 @@
 <head>
 	<title>Entrevista</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
+<?php $fcha = date("Y-m-d");?>
+
+<input type="date" class="form-control"  value="<?php echo $fcha;?>" >
+
 </head>
 <body>
 	<table id="titulo">
@@ -23,6 +28,14 @@
 		<div>
 			<form>
 			<table>
+					<tr>
+						<td>	
+							<p id="textomedio">Nombre:</p>
+						</td>
+						<td>
+							<input type="text" name="Nombre" placeholder="Nombre">
+						</td>
+					</tr>
 					<tr>
 						<td>	
 							<p id="textomedio">Tipo de Identificación:</p>
