@@ -8,9 +8,11 @@
 	<title>Entrevista</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 
-<?php $fcha = date("Y-m-d");?>
+	<?php $fcha = date("d/m/y H:i a");
+		  $hora = date("H:i:s") ?>
+	<input type="time" class="form-control"  value="<?php echo $fcha;?>" >
+	<input type="date" class="form-control"  value="<?php echo $fcha;?>" >
 
-<input type="date" class="form-control"  value="<?php echo $fcha;?>" >
 
 </head>
 <body>
@@ -23,11 +25,13 @@
 			<p id="titulo">Encuesta empresarial</p>
 		</td>
 	</tr>
+
 </table>
 	<center>
 		<div>
 			<form>
 			<table>
+
 					<tr>
 						<td>	
 							<p id="textomedio">Nombre:</p>
