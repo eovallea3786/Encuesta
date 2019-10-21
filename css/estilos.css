@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body{
 	background-color: #222;
@@ -75,6 +76,12 @@ img#titulo{
 	
 }
 
+img#encuesta{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
 p#titulo{
 	font-family: 'Lora', serif;
 	color: white;
@@ -88,6 +95,18 @@ p#textomedio{
 	font-size: 18px;
 }
 
+p#contenido{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+
+input#contenido{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 18px;
+}
 
 
 .myButton {
